@@ -1,0 +1,6 @@
+//CREATE CONSTRAINT wallet_unique_id FOR (wallet:Wallet) REQUIRE wallet.wallet_id IS UNIQUE
+//CREATE CONSTRAINT transaction_unique_id FOR (transaction:Transaction) REQUIRE transaction.transaction_id IS UNIQUE
+//CREATE CONSTRAINT relation_sent_unique_id
+//FOR ()-[sent:SENT]-() REQUIRE (sent.relation_id) IS UNIQUE
+//CREATE CONSTRAINT relation_received_unique_id
+//FOR ()-[received:RECEIVED]-() REQUIRE (received.relation_id) IS UNIQUE
