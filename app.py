@@ -22,7 +22,10 @@ def graph_transaction():
     if not btc_chain or not tx_hash:
         return "Error", 400
     
-    return graph_creator.create_transaction_node(tx_hash, btc_chain)
+    if graph_creator.create_transaction_node(tx_hash, btc_chain):
+        return "Success", 200
+    
+    return "Error"
 
 
 if __name__ == '__main__':

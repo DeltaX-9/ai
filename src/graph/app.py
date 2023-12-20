@@ -71,4 +71,4 @@ class GraphManger():
             return "Error", 400
         
         if self.create_graph(driver,data):
-            return "Success",200
+            return True

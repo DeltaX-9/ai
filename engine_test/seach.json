@@ -1,0 +1,12 @@
+{
+	"query": {
+		"nested": {
+			"path": "contents",
+			"query": {
+				"match": {
+					"contents.content": "first"
+				}
+			}
+		}
+	}
+}

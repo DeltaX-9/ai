@@ -1,0 +1,16 @@
+{
+    "_id": {
+      "$oid": "658260962d01984560ade730"
+    },
+    "uid": "mkjxqxylhv",
+    "name": "Andrews Hacker Group",
+    "description": "A Russian Hacker Group Targeting Indian Continental Region",
+    "is_active": true,
+    "threat_actor": [
+      "alice123_1a8jiwcwvpy7taopuksngueyhmzgyfzpiq",
+      "bob123_1a8jiwcwvpy7taopuksngueyhmzgyfzpiq"
+    ],
+    "references": [],
+    "tags": [],
+    "aliases": []
+  }
